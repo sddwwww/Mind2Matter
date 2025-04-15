@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Mind2Matter: Creating 3D Models from EEG Signals</title>
+  <link rel="icon" type="image/x-icon" href="static/images/eeg.png">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Mind2Matter: Creating 3D Models from EEG Signals</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=SSKS1dkAAAAJ&hl=zh-CN" target="_blank">Xia Deng</a><sup>*1</sup>,</span>
+                <span class="author-block">
+                  <a href="https://scholar.google.com/citations?user=IbztFUkAAAAJ&hl=zh-CN" target="_blank">Shen Chen</a><sup>*1</sup>,</span>
+                  <span class="author-block">
+                    <a href="https://scholar.google.com/citations?hl=zh-CN&view_op=list_works&gmla=AJsN-F5yGRJxWWcHNRcFDqNfhHQ3QOduf8VZZhrsHCD4jrqBtny5WX5iE2gOKA0CNuEKyxiSIXvI_r7BXW6CI7OXcy0KKNDHDkaOyYowEUuNJl9FvX9DcGQ&user=caYfi18AAAAJ" target="_blank">Jiale Zhou</a><sup>†1</sup>,</span>
+                  <span class="author-block">
+                    <a href="https://scholar.google.com/citations?user=DOyVxx0AAAAJ&" target="_blank">Lei Li</a><sup>†2,3</sup></span>
+                  </span>
+                  </div>
+            
+                  <div class="affiliations" style="display: flex; justify-content: space-around; padding:0 60px;">
+                      <div class="affiliation">
+                          <sup>1</sup>East China University of Science and Technology
+                      </div>
+                      <div class="affiliation">
+                          <sup>2</sup>University of Washington 
+                      </div>
+                      <div class="affiliation">
+                          <sup>3</sup>University of Copenhagen
+                      </div>
+                  </div>
+
+                  <div class="is-size-5 publication-authors" style="display: flex; justify-content: center; ">
+                    <span class="author-block" style="padding:0 15px; height: 30px;"><small><sup>*</sup>Indicates Equal Contribution</small></span>
+                    <span class="author-block" style="padding:0 15px; height: 30px;"><small><sup>†</sup>Corresponding author</small></span>
+                  </div>
+
+                  <!-- Github link -->
+                   <br>
+                  <span class="link-block">
+                    <a href="https://github.com/sddwwww/Mind2Matter" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser image-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="static/images/p1.png" alt="MY ALT TEXT"/>
+      <h2 class="subtitle has-text-centered">
+        A subject receives a visual input(left), and EEG signals are recorded. These signals are processed, interpreted as text (middle), and used to generate a 3D model of the scene (right), translating brain activity into a visual representation. 
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser image -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            The reconstruction of 3D objects from brain signals has gained significant attention in brain-computer interface (BCI) research. Current research predominantly utilizes functional magnetic resonance imaging (fMRI) for 3D reconstruction tasks due to its excellent spatial resolution. Nevertheless, the clinical utility of fMRI is limited by its prohibitive costs and inability to support real-time operations.
+            In comparison, electroencephalography (EEG) presents distinct advantages as an affordable, non-invasive, and mobile solution for real-time brain-computer interaction systems. While recent advances in deep learning have enabled remarkable progress in image generation from neural data, decoding EEG signals into structured 3D representations remains largely unexplored. In this paper, we propose a novel framework that translates EEG recordings into 3D object reconstructions by leveraging neural decoding techniques and generative models. Our approach involves training an EEG encoder to extract spatiotemporal visual features, fine-tuning a large language model to interpret these features into descriptive multimodal outputs, and leveraging generative 3D Gaussians with layout-guided control to synthesize the final 3D structures. Experiments demonstrate that our model captures salient geometric and semantic features, paving the way for applications in braincomputer interfaces (BCIs), virtual reality, and neuroprosthetics.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<!-- Paper method -->
+ <br>
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h2 class="title is-3" style="text-align: center;">Method</h2>
+          <img src="static/images/p2.png" alt="MY ALT TEXT"/>
+          <h2 class="subtitle has-text-centered">
+            Architecture of Mind2Matter. EEG signals are processed by a trainable EEG Encoder to extract spatiotemporal features, generating EEG embeddings aligned with image embeddings from a frozen CLIP Encoder. 
+            These embeddings are transformed by a trainable Mapping Network and fed into a frozen LLM, which generates a textual description (e.g., "A colorful butterfly is perched on a flower") using a prompt. The text is then used by another LLM to create an initial 3D layout, followed by object-level and scene-level optimization with 3D Gaussian splatting and diffusion priors, producing a high-fidelity 3D scene.
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+ <!-- End paper method -->
+
+<!-- Image carousel -->
+<section class="hero teaser">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <h2 class="title is-3" style="text-align: center;">EEG-to-Generation </h2>
+        <!-- Your image here -->
+        <img src="static/images/b1.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          <!-- First image description. -->
+        </h2>
+      </div>
+      <div class="item">
+        <h2 class="title is-3" style="text-align: center;">EEG-to-Generation </h2>
+        <!-- Your image here -->
+        <img src="static/images/b2.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          <!-- Second image description. -->
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <h2 class="title is-3" style="text-align: center;">EEG-to-Generation </h2>
+        <img src="static/images/b3.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+         <!-- Third image description. -->
+       </h2>
+     </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- End image carousel -->
+
+
+<!-- Teaser video-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h2 class="title is-3" style="text-align: center;">Text-to-3D generation</h2>
+      <video poster="" id="tree" autoplay controls muted loop height="100%">
+        <!-- Your video here -->
+        <source src="static/videos/v1.mp4"
+        type="video/mp4">
+      </video>
+      <!-- <h2 class="subtitle has-text-centered">
+        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+      </h2> -->
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
