@@ -1,7 +1,7 @@
 # Mind2Matter: Creating 3D Models from EEG Signals
 Official PyTorch Implementation for the "Mind2Matter: Creating 3D Models from EEG Signals" paper.
 <p align="center">
-    🌐 <a href="https://sddwwww.github.io/Mind2Matter/" target="_blank">Project</a> | 📃 <a href=" " target="_blank">Paper</a> 
+    🌐 <a href="https://sddwwww.github.io/Mind2Matter/" target="_blank">Project</a> | 📃 <a href="http://arxiv.org/abs/2504.11936" target="_blank">Paper</a> 
 </p>
 Authors：<a href="https://scholar.google.com/citations?user=SSKS1dkAAAAJ&hl=zh-CN" target="_blank">Xia Deng</a><sup>*</sup>,
 <a href="https://scholar.google.com/citations?user=IbztFUkAAAAJ&hl=zh-CN" target="_blank">Shen Chen</a><sup>*</sup>,
